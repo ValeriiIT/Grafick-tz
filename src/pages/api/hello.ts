@@ -4,6 +4,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 type Data = {
   name: string
 }
+export const API = 'https://64fff48918c34dee0cd41124.mockapi.io/grafick'
 
 export default function handler(
   req: NextApiRequest,
